@@ -27,10 +27,10 @@ void loop()
     Serial.println("Sua nota esta acima da media");
   
 } else { 
-  Serial.println("Sua nota esta abaixo da media");
+  Serial.println("Sua nota esta abaixo da media voce foi reprovado");
  }
    if ( frequencia >= 75) {
-  Serial.println("Voce tem bastante frequencia ou seja voce passou");
+  Serial.println("Voce tem bastante frequencia ");
   
    } else{
      Serial.println("Infelizmente voce foi reprovado por conta da frequencia");
